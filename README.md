@@ -44,14 +44,14 @@ public class Example {
 
 Now let's compile the program and run it via the command-line:
 
-```plaintext
+```text
 javac Example.java
 java Example one two three
 ```
 
 The output of the code above would be:
 
-```plaintext
+```text
 one
 two
 three
@@ -88,13 +88,13 @@ public class Example {
 
 If we run the program above like this:
 
-```plaintext
+```text
 java Example 1 2 3
 ```
 
 The output of the program will be:
 
-```plaintext
+```text
 The product is: 6
 ```
 
@@ -139,25 +139,25 @@ public class Example {
 
 Now if we neglect to provide command-line arguments for our example code:
 
-```plaintext
+```text
 java Example
 ```
 
 We would get this as our output:
 
-```plaintext
+```text
 No command-line arguments were entered.
 ```
 
 If we fail to enter an integer in for the command-line arguments:
 
-```plaintext
+```text
 java Example one two three
 ```
 
 The program will now handle this error gracefully:
 
-```plaintext
+```text
 Did not enter in an integer argument.
 For input string: "one"
 ```
@@ -261,7 +261,7 @@ path, make sure that the path is relative to where the program is being run!
 
 Now we'll go ahead and run it:
 
-```plaintext
+```text
 Leslie
 Ron
 Ann
