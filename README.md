@@ -100,7 +100,7 @@ The product is: 6
 
 As we can see in the program above, we take the arguments and parse them into
 `int` values that we can multiply. We then iterate through those integers to
-come up with a product. So when we pass in the arguments.
+come up with a product.
 
 Now let's modify this program a little to add some exception handling. For
 example, the program would throw a `NumberFormatException` if we were to pass in
